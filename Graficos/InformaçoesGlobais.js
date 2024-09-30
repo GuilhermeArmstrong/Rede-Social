@@ -11,7 +11,7 @@ async function VisualizarInformarçoesGlobais() {
     console.log(paragrafo)
 
     const container = documente.getElementByid('graficos-container')
-    container.appendChild('paragrafo')
+    container.appendChild(paragrafo)
 }
 
 VisualizarInformarçoesGlobais()
